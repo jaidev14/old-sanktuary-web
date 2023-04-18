@@ -1,0 +1,84 @@
+@font-face { font-family: Silver; src: url('font/Silver.ttf'); }
+body {
+    margin: 0rem;
+    background-color: black;
+}
+
+.background {
+    background: url('images/night-sky.gif') no-repeat center fixed;     
+    background-size: cover;
+    background-position: center 0%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+
+.sometimes-background {
+    background: url('images/sometimes-bg.gif') no-repeat center fixed;     
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.center-stuff {
+    margin: 20px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.payme-button {
+    color: blueviolet;
+    width: 600px;
+    height: 600px;
+    margin: 25px;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+}
+
+.payme-button img {
+    width: 600px;
+    height: 600px;
+    display: flex;
+}
+
+
+
+.link-button {
+    color: blueviolet;
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    margin-top: 150px;
+    text-align: center;
+    position: relative;
+}
+
+.link-button img {
+    border-radius: 50%;
+    border: 10px solid;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+}
+
+.link-button p {
+    color: aliceblue;
+    font-family: Silver;
+    font-size: 48px;
+    margin-top: auto;
+}
+
+.link-button:hover {
+    color: black;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}

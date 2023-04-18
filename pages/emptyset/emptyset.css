@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  max-width:2000px;
+}
+
+.sometimes-background {
+  background: url('images/emptyset-hardcore-bg.gif') no-repeat center fixed;     
+  background-size: cover;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.center-stuff {
+  margin: 20px 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.payme-button {
+  color: blueviolet;
+  width: 600px;
+  height: 600px;
+  margin: 25px;
+  margin-top: 150px;
+  text-align: center;
+  display: flex;
+}
+
+.payme-button img {
+  width: 600px;
+  height: 600px;
+  display: flex;
+}
+
+.link-button {
+  color: white;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  text-align: center;
+  position: relative;
+}
+
+.link-button img {
+  border-radius: 50%;
+  border: 10px solid;
+  width: 250px;
+  height: 250px;
+}
+
+.link-button p {
+  color: aliceblue;
+  font-family: Silver;
+  font-size: 48px;
+  margin-top: auto;
+}
+
+.link-button:hover {
+  color: purple;
+}
+
+.rotate{
+   width:80px;
+   height:80px;
+   animation: rotation infinite 30s linear;
+}
+
+.back-button {
+  font-size: 100px;
+}
+
+@keyframes rotation{
+  from{
+    transform:rotate(0deg);
+  }
+  
+  to{
+    transform:rotate(360deg);
+  }
+}
