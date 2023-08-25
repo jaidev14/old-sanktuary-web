@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  height: 100vh;
+  margin: 0rem;
+  overflow: hidden; 
+}
+
+.no-container {
+  margin: auto;
+  padding: 10px;
+}
+
+.no {
+  margin: auto;
+  width: 500px;
+  display: block; 
+}
